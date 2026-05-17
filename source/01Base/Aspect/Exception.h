@@ -17,13 +17,14 @@ protected:
 	String m_sLine;
 	String m_sMessage1;
 	String m_sMessage2;
-//	time_t m_tTime;
+	//	time_t m_tTime;
 public:
 	int GetType() { return this->m_nType; }
 	String GetSource() { return this->m_sClass; }
 	String GetFunction() { return this->m_sFunction; }
-	String& GetMessage1() { return this->m_sMessage1; }
-	String& GetMessage2() { return this->m_sMessage2; }
+	String &GetMessage1() { return this->m_sMessage1; }
+	String &GetMessage2() { return this->m_sMessage2; }
+
 public:
 	Exception(
 		int nType = undefined,
@@ -32,36 +33,29 @@ public:
 		String sLine = "",
 		String sMessage1 = "",
 		String sMessage2 = "")
-		: Aspect(_Exception_Id, _Exception_Name)
-		, m_nType(nType)
-		, m_sName(sName)
-		, m_sFunction(sFunction)
-		, m_sLine(sLine)
-		, m_sMessage1(sMessage1)
-		, m_sMessage2(sMessage2)
+		: Aspect(_Exception_Id, _Exception_Name), m_nType(nType), m_sName(sName), m_sFunction(sFunction), m_sLine(sLine), m_sMessage1(sMessage1), m_sMessage2(sMessage2)
 	{
-//		m_tTime = time(0);
+		//		m_tTime = time(0);
 	}
 	virtual ~Exception() {}
 
-	virtual void Println() {
+	virtual void Println()
+	{
 		printf(
-			"\n>> Execption(%d-%s) << %s, %s - %s %s\n"
-			, m_nType
-			, m_sName.c_str()
-			, m_sFunction.c_str()
-			, m_sLine.c_str()
-			, m_sMessage1.c_str()
-			, m_sMessage2.c_str()
+			"\n>> Execption(%d-%s) << %s, %s - %s %s\n", m_nType, m_sName.c_str(), m_sFunction.c_str(), m_sLine.c_str(), m_sMessage1.c_str(), m_sMessage2.c_str()
 			//			,String(m_tTime).c_str()
 		);
 	}
 };
 
-
 #if _DEBUG_E
-	#define EXCEPTION(EXCEPTIONID, ...) \
-		Exception((int)EXCEPTIONID, ""#EXCEPTIONID"", __PRETTY_FUNCTION__, __LINE__,  ##__VA_ARGS__);
+#ifdef _MSC_VER
+#define EXCEPTION(EXCEPTIONID, ...) \
+	Exception((int)EXCEPTIONID, "" #EXCEPTIONID "", __FUNCTION__, __LINE__, ##__VA_ARGS__);
 #else
-	#define EXCEPTION(COMPOENTNNAME, EVENTID, ...)
+#define EXCEPTION(EXCEPTIONID, ...) \
+	Exception((int)EXCEPTIONID, "" #EXCEPTIONID "", __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#endif
+#else
+#define EXCEPTION(COMPOENTNNAME, EVENTID, ...)
 #endif
