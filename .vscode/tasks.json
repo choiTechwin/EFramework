@@ -1,69 +1,28 @@
 {
-    "version": "2.0.0",
-    "tasks": [
-        {
-            "label": "WSL: CMake Configure",
-            "type": "shell",
-            "command": "wsl",
-            "args": [
-                "bash",
-                "-c",
-                "cd /mnt/c/Users/chois/Source/vsCode/EFramework && cmake -S . -B build_wsl -G 'Unix Makefiles'"
-            ],
-            "group": {
-                "kind": "build"
-            },
-            "problemMatcher": []
-        },
-        {
-            "label": "WSL: Build Debug",
-            "type": "shell",
-            "command": "wsl",
-            "args": [
-                "bash",
-                "-c",
-                "cd /mnt/c/Users/chois/Source/vsCode/EFramework/build_wsl && make -j4"
-            ],
-            "group": {
-                "kind": "build",
-                "isDefault": true
-            },
-            "problemMatcher": [
-                "$gcc"
-            ]
-        },
-        {
-            "label": "WSL: Clean Build",
-            "type": "shell",
-            "command": "wsl",
-            "args": [
-                "bash",
-                "-c",
-                "cd /mnt/c/Users/chois/Source/vsCode/EFramework/build_wsl && make clean && make -j4"
-            ],
-            "group": {
-                "kind": "build"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ]
-        },
-        {
-            "label": "WSL: Build and Run",
-            "type": "shell",
-            "command": "wsl",
-            "args": [
-                "bash",
-                "-c",
-                "cd /mnt/c/Users/chois/Source/vsCode/EFramework/build_wsl && make -j4 && ./bin/EFramework"
-            ],
-            "group": {
-                "kind": "build"
-            },
-            "problemMatcher": [
-                "$gcc"
-            ],
-            "isBackground": false
-        }
-    ]
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc build active file",
+			"command": "/usr/bin/gcc",
+			"args": [
+				"-fdiagnostics-color=always",
+				"-g",
+				"${file}",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/gcc"
+		}
+	]
 }
