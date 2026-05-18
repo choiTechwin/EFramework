@@ -1,10 +1,9 @@
-//#include <92TestApplication/PTestMain/PTestMain.h>
-//#include <91TestPlatform/TestAspect/TestException.h>
+#include <92TestApplication/PTestMain/PTestMain.h>
+#include <91TestPlatform/TestAspect/TestException.h>
 
 #include <stdio.h>
 
 int main() {
-	/*
 	try {
 		PTestMain *pPTestMain = new("PTestMain") PTestMain();
 		pPTestMain->BeforeInitialize();
@@ -19,7 +18,6 @@ int main() {
 	catch (TestException& exception) {
 		exception.Println();
 	}
-	*/
 	printf("Hello World!\n");
 	return 0;
 }
