@@ -29,14 +29,14 @@ endif()
 # Sources
 # -----------------------------------------------------------------------------
 file(GLOB_RECURSE EFRAMEWORK_SOURCES CONFIGURE_DEPENDS
-    "${CMAKE_CURRENT_SOURCE_DIR}/src/*.cpp"
+    "${CMAKE_CURRENT_SOURCE_DIR}/*.cpp"
 )
 
 add_executable(eframework ${EFRAMEWORK_SOURCES})
 
-# The code uses project-rooted includes such as <92TestApplication/...>.
+# The code uses project-rooted includes such as <02Platform/Component/...>.
 target_include_directories(eframework PRIVATE
-    "${CMAKE_CURRENT_SOURCE_DIR}/src"
+    "${CMAKE_CURRENT_SOURCE_DIR}"
 )
 
 if(OpenCV_FOUND)

@@ -4,9 +4,9 @@
 
 //----------------------------------------------------------------------------
 void AppMain::RegisterEventTypes() {
-	Directory::s_dirEvents[(int)IMain::EEventType::eInitializeAsAMain] = "eInitializeAsAMain";
-	Directory::s_dirEvents[(int)IMain::EEventType::eRunAsAMain] = "eRunAsAMain";
-	Directory::s_dirEvents[(int)IMain::EEventType::eFinalizeAsAMain] = "eFinalizeAsAMain";
+	Directory::s_dirEvents[(int)IAppMain::EEventType::eInitializeAsAMain] = "eInitializeAsAMain";
+	Directory::s_dirEvents[(int)IAppMain::EEventType::eRunAsAMain] = "eRunAsAMain";
+	Directory::s_dirEvents[(int)IAppMain::EEventType::eFinalizeAsAMain] = "eFinalizeAsAMain";
 }
 
 void  AppMain::RegisterExceptions() {
@@ -41,7 +41,7 @@ void AppMain::InitializeAsAMain(Event* pEvent) {
 			this->SendReplyEvent(this->m_pLifecycleManager->GetUId(), (int)ILifecycleManager::EEventType::eStartSystem);
 			LOG_HEADER("Main::InitializeAsAMain", "Send->m_pLifecycleManager(eStartSystem)");
 		} else if (pEvent->GetReplyType() == (int)ILifecycleManager::EEventType::eStartSystem) {
-			this->SendNoReplyEvent(this->GetUId(), (int)IMain::EEventType::eFinalizeAsAMain);
+			this->SendNoReplyEvent(this->GetUId(), (int)IAppMain::EEventType::eFinalizeAsAMain);
 			LOG_FOOTER("Main::InitializeAsAMain", "Send->Main(eFinalizeAsAMain)");
 		} else {
 			throw Exception ((unsigned)IComponent::EException::eEventNotSupported, "Main", "InitializeAsAMain", pEvent->GetType());
@@ -76,10 +76,10 @@ void AppMain::FinalizeAsAMain(Event* pEvent) {
 
 void AppMain::ProcessAEvent(Event* pEvent) {
 	switch (pEvent->GetType()) {
-	case (unsigned)IMain::EEventType::eInitializeAsAMain:
+	case (unsigned)IAppMain::EEventType::eInitializeAsAMain:
 		this->InitializeAsAMain(pEvent);
 		break;
-	case (unsigned)IMain::EEventType::eFinalizeAsAMain:
+	case (unsigned)IAppMain::EEventType::eFinalizeAsAMain:
 		this->FinalizeAsAMain(pEvent);
 		break;
 	default:

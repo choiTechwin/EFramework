@@ -1,15 +1,7 @@
 {
-  "cmake.useCMakePresets": "always",
-  "cmake.configurePreset": "linux-debug",
-  "cmake.buildPreset": "build-debug",
-  "cmake.buildDirectory": "${workspaceFolder}/build/debug",
-
-  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools",
-  "C_Cpp.default.compilerPath": "/usr/bin/g++",
-  "C_Cpp.default.cppStandard": "c++17",
-  "C_Cpp.default.cStandard": "c17",
-  "C_Cpp.default.intelliSenseMode": "linux-gcc-x64",
-  "C_Cpp.default.compileCommands": "${workspaceFolder}/build/debug/compile_commands.json",
-
-  "terminal.integrated.defaultProfile.linux": "bash"
+    "cmake.configureOnOpen": false,
+    "cmake.sourceDirectory": "${workspaceFolder}/src",
+    "cmake.buildDirectory": "${workspaceFolder}/build/${buildType}",
+    "cmake.buildType": "Debug",
+    "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
 }

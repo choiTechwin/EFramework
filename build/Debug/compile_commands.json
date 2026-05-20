@@ -1,0 +1,248 @@
+[
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/01Base/Aspect/Aspect.cpp.o -c /home/choisw/EFramework/src/01Base/Aspect/Aspect.cpp",
+  "file": "/home/choisw/EFramework/src/01Base/Aspect/Aspect.cpp",
+  "output": "CMakeFiles/eframework.dir/01Base/Aspect/Aspect.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/01Base/Aspect/Directory.cpp.o -c /home/choisw/EFramework/src/01Base/Aspect/Directory.cpp",
+  "file": "/home/choisw/EFramework/src/01Base/Aspect/Directory.cpp",
+  "output": "CMakeFiles/eframework.dir/01Base/Aspect/Directory.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/01Base/Aspect/Log.cpp.o -c /home/choisw/EFramework/src/01Base/Aspect/Log.cpp",
+  "file": "/home/choisw/EFramework/src/01Base/Aspect/Log.cpp",
+  "output": "CMakeFiles/eframework.dir/01Base/Aspect/Log.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/01Base/Object/BaseObject.cpp.o -c /home/choisw/EFramework/src/01Base/Object/BaseObject.cpp",
+  "file": "/home/choisw/EFramework/src/01Base/Object/BaseObject.cpp",
+  "output": "CMakeFiles/eframework.dir/01Base/Object/BaseObject.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/01Base/Object/RootObject.cpp.o -c /home/choisw/EFramework/src/01Base/Object/RootObject.cpp",
+  "file": "/home/choisw/EFramework/src/01Base/Object/RootObject.cpp",
+  "output": "CMakeFiles/eframework.dir/01Base/Object/RootObject.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/01Base/Object/ValueObject.cpp.o -c /home/choisw/EFramework/src/01Base/Object/ValueObject.cpp",
+  "file": "/home/choisw/EFramework/src/01Base/Object/ValueObject.cpp",
+  "output": "CMakeFiles/eframework.dir/01Base/Object/ValueObject.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/01Base/StdLib/Map.cpp.o -c /home/choisw/EFramework/src/01Base/StdLib/Map.cpp",
+  "file": "/home/choisw/EFramework/src/01Base/StdLib/Map.cpp",
+  "output": "CMakeFiles/eframework.dir/01Base/StdLib/Map.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/02Platform/Component/Component.cpp.o -c /home/choisw/EFramework/src/02Platform/Component/Component.cpp",
+  "file": "/home/choisw/EFramework/src/02Platform/Component/Component.cpp",
+  "output": "CMakeFiles/eframework.dir/02Platform/Component/Component.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/02Platform/Component/ComponentPart.cpp.o -c /home/choisw/EFramework/src/02Platform/Component/ComponentPart.cpp",
+  "file": "/home/choisw/EFramework/src/02Platform/Component/ComponentPart.cpp",
+  "output": "CMakeFiles/eframework.dir/02Platform/Component/ComponentPart.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/02Platform/EventQueue/Event.cpp.o -c /home/choisw/EFramework/src/02Platform/EventQueue/Event.cpp",
+  "file": "/home/choisw/EFramework/src/02Platform/EventQueue/Event.cpp",
+  "output": "CMakeFiles/eframework.dir/02Platform/EventQueue/Event.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/02Platform/EventQueue/EventQueue.cpp.o -c /home/choisw/EFramework/src/02Platform/EventQueue/EventQueue.cpp",
+  "file": "/home/choisw/EFramework/src/02Platform/EventQueue/EventQueue.cpp",
+  "output": "CMakeFiles/eframework.dir/02Platform/EventQueue/EventQueue.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/02Platform/Scheduler/Scheduler.cpp.o -c /home/choisw/EFramework/src/02Platform/Scheduler/Scheduler.cpp",
+  "file": "/home/choisw/EFramework/src/02Platform/Scheduler/Scheduler.cpp",
+  "output": "CMakeFiles/eframework.dir/02Platform/Scheduler/Scheduler.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/MemoryDynamic.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/MemoryDynamic.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/MemoryDynamic.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/MemoryDynamic.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/MemoryObject.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/MemoryObject.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/MemoryObject.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/MemoryObject.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/MemoryStatic.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/MemoryStatic.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/MemoryStatic.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/MemoryStatic.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/PageIndex.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/PageIndex.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/PageIndex.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/PageIndex.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/PageList.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/PageList.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/PageList.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/PageList.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/SlotGenerator.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/SlotGenerator.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/SlotGenerator.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/SlotGenerator.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/SlotInfo.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/SlotInfo.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/SlotInfo.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/SlotInfo.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/MemoryManager/SlotList.cpp.o -c /home/choisw/EFramework/src/03Technical/MemoryManager/SlotList.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/MemoryManager/SlotList.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/MemoryManager/SlotList.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/03Technical/Timer/Timer.cpp.o -c /home/choisw/EFramework/src/03Technical/Timer/Timer.cpp",
+  "file": "/home/choisw/EFramework/src/03Technical/Timer/Timer.cpp",
+  "output": "CMakeFiles/eframework.dir/03Technical/Timer/Timer.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/09Application/AppMain/AppMain.cpp.o -c /home/choisw/EFramework/src/09Application/AppMain/AppMain.cpp",
+  "file": "/home/choisw/EFramework/src/09Application/AppMain/AppMain.cpp",
+  "output": "CMakeFiles/eframework.dir/09Application/AppMain/AppMain.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/09Application/LifecycleManager/LifecycleManager.cpp.o -c /home/choisw/EFramework/src/09Application/LifecycleManager/LifecycleManager.cpp",
+  "file": "/home/choisw/EFramework/src/09Application/LifecycleManager/LifecycleManager.cpp",
+  "output": "CMakeFiles/eframework.dir/09Application/LifecycleManager/LifecycleManager.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/12PPlatform/PComponent/PComponent.cpp.o -c /home/choisw/EFramework/src/12PPlatform/PComponent/PComponent.cpp",
+  "file": "/home/choisw/EFramework/src/12PPlatform/PComponent/PComponent.cpp",
+  "output": "CMakeFiles/eframework.dir/12PPlatform/PComponent/PComponent.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/12PPlatform/PComponent/PComponentPart.cpp.o -c /home/choisw/EFramework/src/12PPlatform/PComponent/PComponentPart.cpp",
+  "file": "/home/choisw/EFramework/src/12PPlatform/PComponent/PComponentPart.cpp",
+  "output": "CMakeFiles/eframework.dir/12PPlatform/PComponent/PComponentPart.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/12PPlatform/PEventQueue/PEventQueue.cpp.o -c /home/choisw/EFramework/src/12PPlatform/PEventQueue/PEventQueue.cpp",
+  "file": "/home/choisw/EFramework/src/12PPlatform/PEventQueue/PEventQueue.cpp",
+  "output": "CMakeFiles/eframework.dir/12PPlatform/PEventQueue/PEventQueue.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/12PPlatform/PScheduler/PScheduler.cpp.o -c /home/choisw/EFramework/src/12PPlatform/PScheduler/PScheduler.cpp",
+  "file": "/home/choisw/EFramework/src/12PPlatform/PScheduler/PScheduler.cpp",
+  "output": "CMakeFiles/eframework.dir/12PPlatform/PScheduler/PScheduler.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryDynamic.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryDynamic.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryDynamic.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryDynamic.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryEven.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryEven.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryEven.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryEven.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryManager.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryManager.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryManager.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryManager.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryStatic.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryStatic.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PMemoryManager/PMemoryStatic.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PMemoryManager/PMemoryStatic.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PThread/PThread.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PThread/PThread.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PThread/PThread.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PThread/PThread.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PTimer/PTimerLinux.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PTimer/PTimerLinux.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PTimer/PTimerLinux.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PTimer/PTimerLinux.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PTimer/PTimerLinux2.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PTimer/PTimerLinux2.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PTimer/PTimerLinux2.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PTimer/PTimerLinux2.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/13PTechnical/PTimer/PTimerRTC.cpp.o -c /home/choisw/EFramework/src/13PTechnical/PTimer/PTimerRTC.cpp",
+  "file": "/home/choisw/EFramework/src/13PTechnical/PTimer/PTimerRTC.cpp",
+  "output": "CMakeFiles/eframework.dir/13PTechnical/PTimer/PTimerRTC.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/19PApplication/PAppMain/PAppMain.cpp.o -c /home/choisw/EFramework/src/19PApplication/PAppMain/PAppMain.cpp",
+  "file": "/home/choisw/EFramework/src/19PApplication/PAppMain/PAppMain.cpp",
+  "output": "CMakeFiles/eframework.dir/19PApplication/PAppMain/PAppMain.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/19PApplication/PLifecycleManager/PLifecycleManager.cpp.o -c /home/choisw/EFramework/src/19PApplication/PLifecycleManager/PLifecycleManager.cpp",
+  "file": "/home/choisw/EFramework/src/19PApplication/PLifecycleManager/PLifecycleManager.cpp",
+  "output": "CMakeFiles/eframework.dir/19PApplication/PLifecycleManager/PLifecycleManager.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/21Domain/VideoManager/VideoManager.cpp.o -c /home/choisw/EFramework/src/21Domain/VideoManager/VideoManager.cpp",
+  "file": "/home/choisw/EFramework/src/21Domain/VideoManager/VideoManager.cpp",
+  "output": "CMakeFiles/eframework.dir/21Domain/VideoManager/VideoManager.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/21Domain/VideoProviderManager/VideoProviderManager.cpp.o -c /home/choisw/EFramework/src/21Domain/VideoProviderManager/VideoProviderManager.cpp",
+  "file": "/home/choisw/EFramework/src/21Domain/VideoProviderManager/VideoProviderManager.cpp",
+  "output": "CMakeFiles/eframework.dir/21Domain/VideoProviderManager/VideoProviderManager.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/21Domain/VideoRequesterManager/VideoRequesterManager.cpp.o -c /home/choisw/EFramework/src/21Domain/VideoRequesterManager/VideoRequesterManager.cpp",
+  "file": "/home/choisw/EFramework/src/21Domain/VideoRequesterManager/VideoRequesterManager.cpp",
+  "output": "CMakeFiles/eframework.dir/21Domain/VideoRequesterManager/VideoRequesterManager.cpp.o"
+},
+{
+  "directory": "/home/choisw/EFramework/build/Debug",
+  "command": "/usr/bin/c++ -D_DEBUG=1 -I/home/choisw/EFramework/src -isystem /usr/include/opencv4 -g -std=c++17 -Wall -Wextra -Wpedantic -o CMakeFiles/eframework.dir/Main.cpp.o -c /home/choisw/EFramework/src/Main.cpp",
+  "file": "/home/choisw/EFramework/src/Main.cpp",
+  "output": "CMakeFiles/eframework.dir/Main.cpp.o"
+}
+]

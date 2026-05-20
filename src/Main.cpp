@@ -1,10 +1,10 @@
 
 #include <stdio.h>
-//#include <Exception.h>
-//#include <19PApplication/PAppMain/PAppMain.h>
+#include <Exception.h>
+#include <19PApplication/PAppMain/PAppMain.h>
 
 int main() {
-	/*
+
 	try {
 		PAppMain *pPAppMain = new("PAppMain") PAppMain();
 		pPAppMain->main_ex();
@@ -13,7 +13,7 @@ int main() {
 	catch (Exception& exception) {
 		exception.Println();
 	}
-	*/
+
 	printf("Hello World1\n");
 	printf("Hello World2\n");
 	printf("Hello World3\n");

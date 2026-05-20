@@ -2,7 +2,7 @@
 
 // #include <02Platform/Component/Component.h>
 // #include <02Platform/Scheduler/Scheduler.h>
-#include <09Application/Main/IMain.h>
+#include <09Application/AppMain/IAppMain.h>
 
 #include <01Base/Aspect/Directory.h>
 #include <01Base/Aspect/Exception.h>
